@@ -1,0 +1,23 @@
+{
+  "name": "sovanda-ban-lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.39.0",
+    "express": "^5.1.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0"
+  }
+}
