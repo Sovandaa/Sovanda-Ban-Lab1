@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "mocha --exit",
+    "coverage": "nyc npm run test",
     "lint": "eslint . --ext .js"
   },
   "keywords": [],
@@ -18,6 +19,7 @@
     "supertest": "^7.1.4"
   },
   "devDependencies": {
-    "chai": "^4.5.0"
+    "chai": "^4.5.0",
+    "nyc": "^17.1.0"
   }
 }
