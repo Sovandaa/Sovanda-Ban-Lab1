@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "mocha --exit",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint . --ext .js",
+    "coverage": "nyc --reporter=lcov --reporter=text npm test"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "supertest": "^7.1.4"
   },
   "devDependencies": {
-    "chai": "^4.5.0"
+    "chai": "^4.5.0",
+    "nyc": "^17.1.0"
   }
 }
