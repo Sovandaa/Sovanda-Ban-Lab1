@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "mocha --exit",
-    "coverage": "nyc npm run test",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint . --ext .js",
+    "coverage": "nyc --reporter=lcov --reporter=text npm test"
   },
   "keywords": [],
   "author": "",
